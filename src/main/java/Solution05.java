@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class example05 {
+public class Solution05 {
 
     public static void main(String[] args) {
 

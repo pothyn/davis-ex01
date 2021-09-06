@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class example03 {
+public class Solution03 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
