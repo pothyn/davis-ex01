@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class example05 {
 
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
 
 //        What is the first number? 10
@@ -16,15 +17,19 @@ public class example05 {
 //        10 * 5 = 50
 //        10 / 5 = 2
 
+        // Ask for first num
         System.out.print("What is the first number? ");
         String firstString = in.next();
 
+        // Ask for second num
         System.out.print("What is the second number? ");
         String secondString = in.next();
 
+        // Parse ints
         int firstInt = Integer.parseInt(firstString);
         int secondInt = Integer.parseInt(secondString);
 
+        // Math and Prints
         System.out.printf("\n%d + %d = %d\n", firstInt, secondInt, firstInt + secondInt);
         System.out.printf("%d - %d = %d\n", firstInt, secondInt, firstInt - secondInt);
         System.out.printf("%d * %d = %d\n", firstInt, secondInt, firstInt * secondInt);
